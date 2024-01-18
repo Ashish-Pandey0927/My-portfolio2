@@ -34,3 +34,12 @@ menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
 };
 
+ // Show loading overlay and animation
+ document.getElementById('layer').style.display = 'none';
+ document.getElementById('loadingContainer').style.display = 'block';
+
+ // Remove loading overlay and animation after 5 seconds
+ setTimeout(() => {
+   document.getElementById('layer').style.display = 'block';
+   document.getElementById('loadingContainer').style.display = 'none';
+ }, 3000);
