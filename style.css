@@ -91,7 +91,7 @@ nav  a{
   animation: float 3s ease-out infinite;
 }
 
- @@keyframes float {
+ @keyframes float {
   50% {
     transform: translateY(35px);
   }
