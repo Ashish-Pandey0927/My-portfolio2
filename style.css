@@ -90,7 +90,8 @@ nav  a{
   box-shadow: 0 0 1rem #ff004f;
   animation: float 3s ease-out infinite;
 }
-@keyframes float {
+
+ @@keyframes float {
   50% {
     transform: translateY(35px);
   }
